@@ -1,0 +1,715 @@
+<?xml version="1.0"?>
+<BorrowerFromDirectToSite>
+	<PrimeBorrowerValidDetails>
+		<Data>
+			<Runmode>Y</Runmode>
+			<!-- Home Page Data -->
+			<LoanAmount>4000</LoanAmount>
+			<LoanPurpose>Debt Consolidation</LoanPurpose>
+			<CreditQuality>Excellent Credit (760+)</CreditQuality>
+
+			<!-- Start RegisterationPage Data -->
+
+			<FICOScore>817</FICOScore>
+			<FirstName>GARY</FirstName>
+			<LastName>BAKOWSKI</LastName>
+			<Street>2416 WASHINGTON AVE</Street>
+			<State>WV</State>
+			<City>SAINT ALBANS</City>
+			<Zipcode>251773232</Zipcode>
+			<SSN>666543705</SSN>
+			<EmailAddress>Random</EmailAddress>
+			<EmploymentStatus>Employed</EmploymentStatus>
+			<Password>Password23</Password>
+			<YearlyIncome>900000</YearlyIncome>
+			<DateOfBirth>12/12/1970</DateOfBirth>
+			<!--End RegisterationPage Data -->
+			<!--Start Personal Details Page Data -->
+			<HomePhone>3236976353</HomePhone>
+			<MobilePhone>3236976354</MobilePhone>
+			<WorkPhone>3236976355</WorkPhone>
+			<EmployerName>GARY</EmployerName>
+			<EmployerPhoneNumber>3236976359</EmployerPhoneNumber>
+			<Occupation>Analyst</Occupation>
+			<StartOfEmployment>02/2000</StartOfEmployment>
+			<SecondaryPhone>3236976352</SecondaryPhone>
+			<!--End Personal Details Page Data -->
+			<!--Start Manually Option Bank Detail Data -->
+
+			<BankName>TestBankName</BankName>
+			<AccountType>Checking</AccountType>
+			<AccountHolderName>GaryHarry</AccountHolderName>
+			<AlternativerAccountHolderName>Harry</AlternativerAccountHolderName>
+			<RoutingNumber>113024520</RoutingNumber>
+			<AccountNumber>123456789</AccountNumber>
+			<ConfirmAccountNumber>123456789</ConfirmAccountNumber>
+			<!--End Manually Option Bank Detail Data -->
+		</Data>
+
+	</PrimeBorrowerValidDetails>
+
+	<NearPrimeBorrowerValidDetails>
+		<Data>
+			<Runmode>Y</Runmode>
+			<OfferCode>SS4RR5SF</OfferCode>
+			<!-- Home Page Data -->
+			<LoanAmount>4000</LoanAmount>
+			<LoanPurpose>Debt Consolidation</LoanPurpose>
+			<CreditQuality>Excellent Credit (760+)</CreditQuality>
+
+			<!-- Start RegisterationPage Data -->
+
+			<FICOScore>817</FICOScore>
+			<FirstName>MARK</FirstName>
+			<LastName>JOHN</LastName>
+			<Street>1938 RUE LA FONTAINE</Street>
+			<State>FL</State>
+			<City>NAVARRE</City>
+			<Zipcode>325662151</Zipcode>
+			<SSN>666529524</SSN>
+			<EmailAddress>Random</EmailAddress>
+			<EmploymentStatus>Employed</EmploymentStatus>
+			<Password>Password23</Password>
+			<YearlyIncome>900000</YearlyIncome>
+			<DateOfBirth>12/12/1970</DateOfBirth>
+			<!--End RegisterationPage Data -->
+			<!--Start Personal Details Page Data -->
+			<HomePhone>3236976353</HomePhone>
+			<MobilePhone>3236976354</MobilePhone>
+			<WorkPhone>3236976355</WorkPhone>
+			<EmployerName>GARY</EmployerName>
+			<EmployerPhoneNumber>3236976359</EmployerPhoneNumber>
+			<Occupation>Analyst</Occupation>
+			<StartOfEmployment>02/2000</StartOfEmployment>
+			<SecondaryPhone>3236976352</SecondaryPhone>
+			<!--End Personal Details Page Data -->
+			<!--Start Manually Option Bank Detail Data -->
+
+			<BankName>TestBankName</BankName>
+			<AccountType>Checking</AccountType>
+			<AccountHolderName>Mark</AccountHolderName>
+			<AlternativerAccountHolderName>Harry</AlternativerAccountHolderName>
+			<RoutingNumber>113024520</RoutingNumber>
+			<AccountNumber>123456789</AccountNumber>
+			<ConfirmAccountNumber>123456789</ConfirmAccountNumber>
+			<!--End Manually Option Bank Detail Data -->
+		</Data>
+
+	</NearPrimeBorrowerValidDetails>
+
+	<PrimeVTStateBorrowerValidDetails>
+		<Data>
+			<Runmode>Y</Runmode>
+			<!-- Home Page Data -->
+			<LoanAmount>4000</LoanAmount>
+			<LoanPurpose>Debt Consolidation</LoanPurpose>
+			<CreditQuality>Excellent Credit (760+)</CreditQuality>
+
+			<!-- Start RegisterationPage Data -->
+
+			<FICOScore>817</FICOScore>
+			<FirstName>JOHN</FirstName>
+			<LastName>SHAW</LastName>
+			<Street>PSC 1 BOX 3715</Street>
+			<State>VT</State>
+			<City>APO</City>
+			<Zipcode>09009</Zipcode>
+			<SSN>666620780</SSN>
+			<EmailAddress>Random</EmailAddress>
+			<Password>Password23</Password>
+			<EmploymentStatus>Employed</EmploymentStatus>
+			<YearlyIncome>900000</YearlyIncome>
+			<DateOfBirth>12/12/1970</DateOfBirth>
+			<!--End RegisterationPage Data -->
+			<!--Start Personal Details Page Data -->
+			<HomePhone>3236976353</HomePhone>
+			<MobilePhone>3236976354</MobilePhone>
+			<WorkPhone>3236976355</WorkPhone>
+			<EmployerName>GARY</EmployerName>
+			<EmployerPhoneNumber>3236976359</EmployerPhoneNumber>
+			<Occupation>Analyst</Occupation>
+			<StartOfEmployment>02/2000</StartOfEmployment>
+			<SecondaryPhone>3236976352</SecondaryPhone>
+			<!--End Personal Details Page Data -->
+			<!--Start Manually Option Bank Detail Data -->
+
+			<BankName>TestBankName</BankName>
+			<AccountType>Checking</AccountType>
+			<AccountHolderName>Heter</AccountHolderName>
+			<AlternativerAccountHolderName>Heter</AlternativerAccountHolderName>
+			<RoutingNumber>113024520</RoutingNumber>
+			<AccountNumber>123456789</AccountNumber>
+			<ConfirmAccountNumber>123456789</ConfirmAccountNumber>
+			<!--End Manually Option Bank Detail Data -->
+		</Data>
+
+	</PrimeVTStateBorrowerValidDetails>
+
+
+	<ExistingPrimeBorrowerOlderThan9Months>
+		<Data>
+			<Runmode>Y</Runmode>
+			<!-- Home Page Data -->
+			<LoanAmount>4000</LoanAmount>
+			<LoanPurpose>Debt Consolidation</LoanPurpose>
+			<CreditQuality>Excellent Credit (760+)</CreditQuality>
+
+			<!-- Start RegisterationPage Data -->
+
+			<FICOScore>817</FICOScore>
+			<FirstName>GARY</FirstName>
+			<LastName>BAKOWSKI</LastName>
+			<Street>2416 WASHINGTON AVE</Street>
+			<State>WV</State>
+			<City>SAINT ALBANS</City>
+			<Zipcode>251773232</Zipcode>
+			<SSN>666543705</SSN>
+			<EmailAddress>jon03@c1.dev</EmailAddress>
+			<EmploymentStatus>Employed</EmploymentStatus>
+			<Password>Password23</Password>
+			<YearlyIncome>900000</YearlyIncome>
+			<DateOfBirth>12/12/1970</DateOfBirth>
+			<!--End RegisterationPage Data -->
+			<!--Start Personal Details Page Data -->
+			<HomePhone>3236976353</HomePhone>
+			<MobilePhone>3236976354</MobilePhone>
+			<WorkPhone>3236976359</WorkPhone>
+			<EmployerName>GARY</EmployerName>
+			<EmployerPhoneNumber>3236976359</EmployerPhoneNumber>
+			<Occupation>Analyst</Occupation>
+			<StartOfEmployment>02/2000</StartOfEmployment>
+			<SecondaryPhone>3236976352</SecondaryPhone>
+			<!--End Personal Details Page Data -->
+			<!--Start Manually Option Bank Detail Data -->
+
+			<BankName>TestBankName</BankName>
+			<AccountType>Checking</AccountType>
+			<AccountHolderName>GaryHarry</AccountHolderName>
+			<AlternativerAccountHolderName>Harry</AlternativerAccountHolderName>
+			<RoutingNumber>113024520</RoutingNumber>
+			<AccountNumber>123456789</AccountNumber>
+			<ConfirmAccountNumber>123456789</ConfirmAccountNumber>
+			<!--End Manually Option Bank Detail Data -->
+		</Data>
+	</ExistingPrimeBorrowerOlderThan9Months>
+
+	<PostBureauInvalid9001FICOScoreUser>
+		<Data>
+			<Runmode>Y</Runmode>
+			<!-- Home Page Data -->
+			<LoanAmount>4000</LoanAmount>
+			<LoanPurpose>Debt Consolidation</LoanPurpose>
+			<CreditQuality>Excellent Credit (760+)</CreditQuality>
+
+			<!-- Start RegisterationPage Data -->
+
+			<FICOScore>9001</FICOScore>
+			<FirstName>DONALD</FirstName>
+			<LastName>MADERA</LastName>
+			<Street>4212 ALABAMA AVE</Street>
+			<State>LA</State>
+			<City>KENNER</City>
+			<Zipcode>700651305</Zipcode>
+			<SSN>666523068</SSN>
+			<EmailAddress>Random</EmailAddress>
+			<EmploymentStatus>Employed</EmploymentStatus>
+			<Password>Password23</Password>
+			<YearlyIncome>900000</YearlyIncome>
+			<DateOfBirth>12/12/1970</DateOfBirth>
+			<!--End RegisterationPage Data -->
+			<!--Start Personal Details Page Data -->
+			<HomePhone>3236976353</HomePhone>
+			<MobilePhone>3236976354</MobilePhone>
+			<WorkPhone>3236976355</WorkPhone>
+			<EmployerName>DUCK</EmployerName>
+			<EmployerPhoneNumber>3236976359</EmployerPhoneNumber>
+			<Occupation>Analyst</Occupation>
+			<StartOfEmployment>02/2000</StartOfEmployment>
+			<SecondaryPhone>3236976352</SecondaryPhone>
+			<!--End Personal Details Page Data -->
+			<!--Start Manually Option Bank Detail Data -->
+
+			<BankName>TestBankName</BankName>
+			<AccountType>Checking</AccountType>
+			<AccountHolderName>MacDonald</AccountHolderName>
+			<AlternativerAccountHolderName>MacDonald
+			</AlternativerAccountHolderName>
+			<RoutingNumber>113024520</RoutingNumber>
+			<AccountNumber>123456789</AccountNumber>
+			<ConfirmAccountNumber>123456789</ConfirmAccountNumber>
+			<!--End Manually Option Bank Detail Data -->
+		</Data>
+	</PostBureauInvalid9001FICOScoreUser>
+	<ExistingPrimeBorrowerLessThan6Months>
+		<Data>
+			<Runmode>Y</Runmode>
+			<!-- Home Page Data -->
+			<LoanAmount>4000</LoanAmount>
+			<LoanPurpose>Debt Consolidation</LoanPurpose>
+			<CreditQuality>Excellent Credit (760+)</CreditQuality>
+
+			<!-- Start RegisterationPage Data -->
+
+			<FICOScore>817</FICOScore>
+			<FirstName>GARY</FirstName>
+			<LastName>BAKOWSKI</LastName>
+			<Street>2416 WASHINGTON AVE</Street>
+			<State>WV</State>
+			<City>SAINT ALBANS</City>
+			<Zipcode>251773232</Zipcode>
+			<SSN>666543705</SSN>
+			<EmailAddress>test18Jan2016091752@c1.dev</EmailAddress>
+			<EmploymentStatus>Employed</EmploymentStatus>
+			<Password>Password23</Password>
+			<YearlyIncome>900000</YearlyIncome>
+			<DateOfBirth>12/12/1963</DateOfBirth>
+			<!--End RegisterationPage Data -->
+			<!--Start Personal Details Page Data -->
+			<HomePhone>3236976353</HomePhone>
+			<MobilePhone>3236976354</MobilePhone>
+			<WorkPhone>3236976359</WorkPhone>
+			<EmployerName>GARY</EmployerName>
+			<EmployerPhoneNumber>3236976359</EmployerPhoneNumber>
+			<Occupation>Analyst</Occupation>
+			<StartOfEmployment>02/2000</StartOfEmployment>
+			<SecondaryPhone>3236976352</SecondaryPhone>
+			<!--End Personal Details Page Data -->
+			<!--Start Manually Option Bank Detail Data -->
+
+			<BankName>TestBankName</BankName>
+			<AccountType>Checking</AccountType>
+			<AccountHolderName>GaryHarry</AccountHolderName>
+			<AlternativerAccountHolderName>Harry</AlternativerAccountHolderName>
+			<RoutingNumber>113024520</RoutingNumber>
+			<AccountNumber>123456789</AccountNumber>
+			<ConfirmAccountNumber>123456789</ConfirmAccountNumber>
+			<!--End Manually Option Bank Detail Data -->
+		</Data>
+	</ExistingPrimeBorrowerLessThan6Months>
+	<ExistingPrimeBorrowerLessThan9Months>
+		<Data>
+			<Runmode>Y</Runmode>
+			<!-- Home Page Data -->
+			<LoanAmount>4000</LoanAmount>
+			<LoanPurpose>Debt Consolidation</LoanPurpose>
+			<CreditQuality>Excellent Credit (760+)</CreditQuality>
+
+			<!-- Start RegisterationPage Data -->
+
+			<FICOScore>817</FICOScore>
+			<FirstName>DAVID</FirstName>
+			<LastName>ARNELL</LastName>
+			<Street>38 SOUTHPINE CT</Street>
+			<State>CA</State>
+			<City>SAN JOSE</City>
+			<Zipcode>951381819</Zipcode>
+			<SSN>666555177</SSN>
+			<EmailAddress>jan18jean_0001@c1.stg</EmailAddress>
+			<EmploymentStatus>Employed</EmploymentStatus>
+			<Password>Password23</Password>
+			<YearlyIncome>900000</YearlyIncome>
+			<DateOfBirth>12/12/1970</DateOfBirth>
+			<!--End RegisterationPage Data -->
+			<!--Start Personal Details Page Data -->
+			<HomePhone>3236976353</HomePhone>
+			<MobilePhone>3236976354</MobilePhone>
+			<WorkPhone>3236976359</WorkPhone>
+			<EmployerName>GARY</EmployerName>
+			<EmployerPhoneNumber>3236976359</EmployerPhoneNumber>
+			<Occupation>Analyst</Occupation>
+			<StartOfEmployment>02/2000</StartOfEmployment>
+			<SecondaryPhone>3236976352</SecondaryPhone>
+			<!--End Personal Details Page Data -->
+			<!--Start Manually Option Bank Detail Data -->
+
+			<BankName>TestBankName</BankName>
+			<AccountType>Checking</AccountType>
+			<AccountHolderName>GaryHarry</AccountHolderName>
+			<AlternativerAccountHolderName>Harry</AlternativerAccountHolderName>
+			<RoutingNumber>113024520</RoutingNumber>
+			<AccountNumber>123456789</AccountNumber>
+			<ConfirmAccountNumber>123456789</ConfirmAccountNumber>
+			<!--End Manually Option Bank Detail Data -->
+		</Data>
+	</ExistingPrimeBorrowerLessThan9Months>
+	<PrimeBorrowerAll803GreatherThan6>
+		<Data>
+			<Runmode>Y</Runmode>
+			<!-- Home Page Data -->
+			<LoanAmount>4000</LoanAmount>
+			<LoanPurpose>Debt Consolidation</LoanPurpose>
+			<CreditQuality>Excellent Credit (760+)</CreditQuality>
+
+			<!-- Start RegisterationPage Data -->
+
+			<FICOScore>723</FICOScore>
+			<FirstName>LESLIE</FirstName>
+			<LastName>BOULTON</LastName>
+			<Street>19418 RIVERWOOD AVE</Street>
+			<State>OH</State>
+			<City>ROCKY RIVER</City>
+			<Zipcode>441162737</Zipcode>
+			<SSN>666315648</SSN>
+			<EmailAddress>Random</EmailAddress>
+			<EmploymentStatus>Employed</EmploymentStatus>
+			<Password>Password23</Password>
+			<YearlyIncome>900000</YearlyIncome>
+			<DateOfBirth>12/12/1970</DateOfBirth>
+			<!--End RegisterationPage Data -->
+			<!--Start Personal Details Page Data -->
+			<HomePhone>3236976353</HomePhone>
+			<MobilePhone>3236976354</MobilePhone>
+			<WorkPhone>3236976359</WorkPhone>
+			<EmployerName>GARY</EmployerName>
+			<EmployerPhoneNumber>3236976359</EmployerPhoneNumber>
+			<Occupation>Analyst</Occupation>
+			<StartOfEmployment>02/2000</StartOfEmployment>
+			<SecondaryPhone>3236976352</SecondaryPhone>
+			<!--End Personal Details Page Data -->
+			<!--Start Manually Option Bank Detail Data -->
+
+			<BankName>TestBankName</BankName>
+			<AccountType>Checking</AccountType>
+			<AccountHolderName>GaryHarry</AccountHolderName>
+			<AlternativerAccountHolderName>Harry</AlternativerAccountHolderName>
+			<RoutingNumber>113024520</RoutingNumber>
+			<AccountNumber>123456789</AccountNumber>
+			<ConfirmAccountNumber>123456789</ConfirmAccountNumber>
+			<!--End Manually Option Bank Detail Data -->
+		</Data>
+	</PrimeBorrowerAll803GreatherThan6>
+	<HighInstallmentTradeBorrowerDetails>
+		<Data>
+			<Runmode>Y</Runmode>
+			<!-- Home Page Data -->
+			<LoanAmount>4000</LoanAmount>
+			<LoanPurpose>Debt Consolidation</LoanPurpose>
+			<CreditQuality>Excellent Credit (760+)</CreditQuality>
+
+			<!-- Start RegisterationPage Data -->
+
+			<FICOScore>817</FICOScore>
+			<FirstName>SHIRLEY</FirstName>
+			<LastName>THIEU</LastName>
+			<Street>15 CLOVE RD # 1A</Street>
+			<State>NY</State>
+			<City>NEW ROCHELLE</City>
+			<Zipcode>108012502</Zipcode>
+			<SSN>666234456</SSN>
+			<EmailAddress>Random</EmailAddress>
+			<EmploymentStatus>Employed</EmploymentStatus>
+			<Password>Password23</Password>
+			<YearlyIncome>900000</YearlyIncome>
+			<DateOfBirth>12/12/1957</DateOfBirth>
+			<!--End RegisterationPage Data -->
+			<!--Start Personal Details Page Data -->
+			<HomePhone>3236976353</HomePhone>
+			<MobilePhone>3236976354</MobilePhone>
+			<WorkPhone>3236976355</WorkPhone>
+			<EmployerName>GARY</EmployerName>
+			<EmployerPhoneNumber>3236976359</EmployerPhoneNumber>
+			<Occupation>Analyst</Occupation>
+			<StartOfEmployment>02/2000</StartOfEmployment>
+			<SecondaryPhone>3236976352</SecondaryPhone>
+			<!--End Personal Details Page Data -->
+			<!--Start Manually Option Bank Detail Data -->
+
+			<BankName>TestBankName</BankName>
+			<AccountType>Checking</AccountType>
+			<AccountHolderName>GaryHarry</AccountHolderName>
+			<AlternativerAccountHolderName>Harry</AlternativerAccountHolderName>
+			<RoutingNumber>113024520</RoutingNumber>
+			<AccountNumber>123456789</AccountNumber>
+			<ConfirmAccountNumber>123456789</ConfirmAccountNumber>
+			<!--End Manually Option Bank Detail Data -->
+		</Data>
+
+	</HighInstallmentTradeBorrowerDetails>
+
+	<TooManyRecentInstallmentTradeBorrowerDetails>
+		<Data>
+			<Runmode>Y</Runmode>
+			<!-- Home Page Data -->
+			<LoanAmount>4000</LoanAmount>
+			<LoanPurpose>Debt Consolidation</LoanPurpose>
+			<CreditQuality>Excellent Credit (760+)</CreditQuality>
+
+			<!-- Start RegisterationPage Data -->
+
+			<FICOScore>817</FICOScore>
+			<FirstName>SAM</FirstName>
+			<LastName>MONTANO</LastName>
+			<Street>109 BRIGHTON CT</Street>
+			<State>SC</State>
+			<City>GOOSE CREEK</City>
+			<Zipcode>294455508</Zipcode>
+			<SSN>666458346</SSN>
+			<EmailAddress>Random</EmailAddress>
+			<EmploymentStatus>Employed</EmploymentStatus>
+			<Password>Password23</Password>
+			<YearlyIncome>900000</YearlyIncome>
+			<DateOfBirth>12/12/1963</DateOfBirth>
+			<!--End RegisterationPage Data -->
+			<!--Start Personal Details Page Data -->
+			<HomePhone>3236976353</HomePhone>
+			<MobilePhone>3236976354</MobilePhone>
+			<WorkPhone>3236976355</WorkPhone>
+			<EmployerName>GARY</EmployerName>
+			<EmployerPhoneNumber>3236976359</EmployerPhoneNumber>
+			<Occupation>Analyst</Occupation>
+			<StartOfEmployment>02/2000</StartOfEmployment>
+			<SecondaryPhone>3236976352</SecondaryPhone>
+			<!--End Personal Details Page Data -->
+			<!--Start Manually Option Bank Detail Data -->
+
+			<BankName>TestBankName</BankName>
+			<AccountType>Checking</AccountType>
+			<AccountHolderName>GaryHarry</AccountHolderName>
+			<AlternativerAccountHolderName>Harry</AlternativerAccountHolderName>
+			<RoutingNumber>113024520</RoutingNumber>
+			<AccountNumber>123456789</AccountNumber>
+			<ConfirmAccountNumber>123456789</ConfirmAccountNumber>
+			<!--End Manually Option Bank Detail Data -->
+		</Data>
+
+	</TooManyRecentInstallmentTradeBorrowerDetails>
+	<LowFiscoLessthan640BorrowerDetails>
+		<Data>
+			<Runmode>Y</Runmode>
+			<!-- Home Page Data -->
+			<LoanAmount>4000</LoanAmount>
+			<LoanPurpose>Debt Consolidation</LoanPurpose>
+			<CreditQuality>Excellent Credit (760+)</CreditQuality>
+
+			<!-- Start RegisterationPage Data -->
+
+			<FICOScore>817</FICOScore>
+			<FirstName>MAMIE</FirstName>
+			<LastName>BAKER</LastName>
+			<Street>82 MYSTIC DR</Street>
+			<State>NY</State>
+			<City>OSSINING</City>
+			<Zipcode>105621967</Zipcode>
+			<SSN>666347781</SSN>
+			<EmailAddress>Random</EmailAddress>
+			<EmploymentStatus>Employed</EmploymentStatus>
+			<Password>Password23</Password>
+			<YearlyIncome>900000</YearlyIncome>
+			<DateOfBirth>12/12/1963</DateOfBirth>
+			<!--End RegisterationPage Data -->
+			<!--Start Personal Details Page Data -->
+			<HomePhone>3236976353</HomePhone>
+			<MobilePhone>3236976354</MobilePhone>
+			<WorkPhone>3236976355</WorkPhone>
+			<EmployerName>GARY</EmployerName>
+			<EmployerPhoneNumber>3236976359</EmployerPhoneNumber>
+			<Occupation>Analyst</Occupation>
+			<StartOfEmployment>02/2000</StartOfEmployment>
+			<SecondaryPhone>3236976352</SecondaryPhone>
+			<!--End Personal Details Page Data -->
+			<!--Start Manually Option Bank Detail Data -->
+
+			<BankName>TestBankName</BankName>
+			<AccountType>Checking</AccountType>
+			<AccountHolderName>GaryHarry</AccountHolderName>
+			<AlternativerAccountHolderName>Harry</AlternativerAccountHolderName>
+			<RoutingNumber>113024520</RoutingNumber>
+			<AccountNumber>123456789</AccountNumber>
+			<ConfirmAccountNumber>123456789</ConfirmAccountNumber>
+			<!--End Manually Option Bank Detail Data -->
+		</Data>
+
+	</LowFiscoLessthan640BorrowerDetails>
+	<TooManyRecentInquriesBorrowerDetails>
+		<Data>
+			<Runmode>Y</Runmode>
+			<!-- Home Page Data -->
+			<LoanAmount>4000</LoanAmount>
+			<LoanPurpose>Debt Consolidation</LoanPurpose>
+			<CreditQuality>Excellent Credit (760+)</CreditQuality>
+
+			<!-- Start RegisterationPage Data -->
+
+			<FICOScore>817</FICOScore>
+			<FirstName>DANNY</FirstName>
+			<LastName>LARGENT</LastName>
+			<Street>3642 HARPER AVE</Street>
+			<State>NY</State>
+			<City>BRONX</City>
+			<Zipcode>104665907</Zipcode>
+			<SSN>666398733</SSN>
+			<EmailAddress>Random</EmailAddress>
+			<EmploymentStatus>Employed</EmploymentStatus>
+			<Password>Password23</Password>
+			<YearlyIncome>900000</YearlyIncome>
+			<DateOfBirth>12/12/1963</DateOfBirth>
+			<!--End RegisterationPage Data -->
+			<!--Start Personal Details Page Data -->
+			<HomePhone>3236976353</HomePhone>
+			<MobilePhone>3236976354</MobilePhone>
+			<WorkPhone>3236976355</WorkPhone>
+			<EmployerName>GARY</EmployerName>
+			<EmployerPhoneNumber>3236976359</EmployerPhoneNumber>
+			<Occupation>Analyst</Occupation>
+			<StartOfEmployment>02/2000</StartOfEmployment>
+			<SecondaryPhone>3236976352</SecondaryPhone>
+			<!--End Personal Details Page Data -->
+			<!--Start Manually Option Bank Detail Data -->
+
+			<BankName>TestBankName</BankName>
+			<AccountType>Checking</AccountType>
+			<AccountHolderName>GaryHarry</AccountHolderName>
+			<AlternativerAccountHolderName>Harry</AlternativerAccountHolderName>
+			<RoutingNumber>113024520</RoutingNumber>
+			<AccountNumber>123456789</AccountNumber>
+			<ConfirmAccountNumber>123456789</ConfirmAccountNumber>
+			<!--End Manually Option Bank Detail Data -->
+		</Data>
+
+	</TooManyRecentInquriesBorrowerDetails>
+
+	<SecondLoanElligibleBorrower>
+		<Data>
+			<Runmode>Y</Runmode>
+			<!-- Home Page Data -->
+			<LoanAmount>9000</LoanAmount>
+			<LoanPurpose>Debt Consolidation</LoanPurpose>
+			<CreditQuality>Excellent Credit (760+)</CreditQuality>
+
+			<!-- Start RegisterationPage Data -->
+
+			<FICOScore>817</FICOScore>
+			<FirstName>JEAN</FirstName>
+			<LastName>BRIGGS</LastName>
+			<Street>315 E HOLMES ST</Street>
+			<State>WI</State>
+			<City>JANESVILLE</City>
+			<Zipcode>535454114</Zipcode>
+			<SSN>666475731</SSN>
+			<EmailAddress>apr29jean_006@c1.stg</EmailAddress>
+			<EmploymentStatus>Employed</EmploymentStatus>
+			<Password>Password23</Password>
+			<YearlyIncome>900000</YearlyIncome>
+			<DateOfBirth>12/12/1963</DateOfBirth>
+			<!--End RegisterationPage Data -->
+			<!--Start Personal Details Page Data -->
+			<HomePhone>3236976353</HomePhone>
+			<MobilePhone>3236976354</MobilePhone>
+			<WorkPhone>3236976355</WorkPhone>
+			<EmployerName>GARY</EmployerName>
+			<EmployerPhoneNumber>3236976359</EmployerPhoneNumber>
+			<Occupation>Analyst</Occupation>
+			<StartOfEmployment>02/2000</StartOfEmployment>
+			<SecondaryPhone>3236976352</SecondaryPhone>
+			<!--End Personal Details Page Data -->
+			<!--Start Manually Option Bank Detail Data -->
+
+			<BankName>TestBankName</BankName>
+			<AccountType>Checking</AccountType>
+			<AccountHolderName>GaryHarry</AccountHolderName>
+			<AlternativerAccountHolderName>Harry</AlternativerAccountHolderName>
+			<RoutingNumber>113024520</RoutingNumber>
+			<AccountNumber>123456789</AccountNumber>
+			<ConfirmAccountNumber>123456789</ConfirmAccountNumber>
+			<!--End Manually Option Bank Detail Data -->
+		</Data>
+
+	</SecondLoanElligibleBorrower>
+	
+	<InvalidFico9001Borrower>
+		<Data>
+			<Runmode>Y</Runmode>
+			<!-- Home Page Data -->
+			<LoanAmount>9000</LoanAmount>
+			<LoanPurpose>Debt Consolidation</LoanPurpose>
+			<CreditQuality>Excellent Credit (760+)</CreditQuality>
+
+			<!-- Start RegisterationPage Data -->
+
+			<FICOScore>817</FICOScore>
+			<FirstName>DONALD</FirstName>
+			<LastName>MADERA</LastName>
+			<Street>4212 ALABAMA AVE</Street>
+			<State>LA</State>
+			<City>KENNER</City>
+			<Zipcode>700651305</Zipcode>
+			<SSN>666523068</SSN>
+			<EmailAddress>user2316603@prosper.stg</EmailAddress>
+			<EmploymentStatus>Employed</EmploymentStatus>
+			<Password>Password23</Password>
+			<YearlyIncome>900000</YearlyIncome>
+			<DateOfBirth>12/12/1963</DateOfBirth>
+			<!--End RegisterationPage Data -->
+			<!--Start Personal Details Page Data -->
+			<HomePhone>3236976353</HomePhone>
+			<MobilePhone>3236976354</MobilePhone>
+			<WorkPhone>3236976355</WorkPhone>
+			<EmployerName>GARY</EmployerName>
+			<EmployerPhoneNumber>3236976359</EmployerPhoneNumber>
+			<Occupation>Analyst</Occupation>
+			<StartOfEmployment>02/2000</StartOfEmployment>
+			<SecondaryPhone>3236976352</SecondaryPhone>
+			<!--End Personal Details Page Data -->
+			<!--Start Manually Option Bank Detail Data -->
+
+			<BankName>TestBankName</BankName>
+			<AccountType>Checking</AccountType>
+			<AccountHolderName>GaryHarry</AccountHolderName>
+			<AlternativerAccountHolderName>Harry</AlternativerAccountHolderName>
+			<RoutingNumber>113024520</RoutingNumber>
+			<AccountNumber>123456789</AccountNumber>
+			<ConfirmAccountNumber>123456789</ConfirmAccountNumber>
+			<!--End Manually Option Bank Detail Data -->
+		</Data>
+
+	</InvalidFico9001Borrower>
+	
+	<InvalidFico9000Borrower>
+		<Data>
+			<Runmode>Y</Runmode>
+			<!-- Home Page Data -->
+			<LoanAmount>9000</LoanAmount>
+			<LoanPurpose>Debt Consolidation</LoanPurpose>
+			<CreditQuality>Excellent Credit (760+)</CreditQuality>
+
+			<!-- Start RegisterationPage Data -->
+
+			<FICOScore>817</FICOScore>
+			<FirstName>DAVID</FirstName>
+			<LastName>BUZUN</LastName>
+			<Street>1325 5TH AVE APT 4B</Street>
+			<State>NY</State>
+			<City>NEW YORK</City>
+			<Zipcode>100292644</Zipcode>
+			<SSN>666441374</SSN>
+			<EmailAddress>user1881580@prosper.stg</EmailAddress>
+			<EmploymentStatus>Employed</EmploymentStatus>
+			<Password>Password23</Password>
+			<YearlyIncome>900000</YearlyIncome>
+			<DateOfBirth>12/12/1963</DateOfBirth>
+			<!--End RegisterationPage Data -->
+			<!--Start Personal Details Page Data -->
+			<HomePhone>3236976353</HomePhone>
+			<MobilePhone>3236976354</MobilePhone>
+			<WorkPhone>3236976355</WorkPhone>
+			<EmployerName>GARY</EmployerName>
+			<EmployerPhoneNumber>3236976359</EmployerPhoneNumber>
+			<Occupation>Analyst</Occupation>
+			<StartOfEmployment>02/2000</StartOfEmployment>
+			<SecondaryPhone>3236976352</SecondaryPhone>
+			<!--End Personal Details Page Data -->
+			<!--Start Manually Option Bank Detail Data -->
+
+			<BankName>TestBankName</BankName>
+			<AccountType>Checking</AccountType>
+			<AccountHolderName>GaryHarry</AccountHolderName>
+			<AlternativerAccountHolderName>Harry</AlternativerAccountHolderName>
+			<RoutingNumber>113024520</RoutingNumber>
+			<AccountNumber>123456789</AccountNumber>
+			<ConfirmAccountNumber>123456789</ConfirmAccountNumber>
+			<!--End Manually Option Bank Detail Data -->
+		</Data>
+
+	</InvalidFico9000Borrower>
+
+</BorrowerFromDirectToSite>

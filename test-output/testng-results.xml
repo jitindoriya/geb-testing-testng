@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="115642" started-at="2016-04-05T17:27:32Z" finished-at="2016-04-05T17:29:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="115642" started-at="2016-04-05T17:27:32Z" finished-at="2016-04-05T17:29:27Z">
+      <class name="FirstGebTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:FirstGebTest@635eaaf1]" name="before" is-config="true" duration-ms="1715" started-at="2016-04-05T22:57:32Z" finished-at="2016-04-05T22:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="initReportGroupDir()[pri:0, instance:FirstGebTest@635eaaf1]" name="initReportGroupDir" is-config="true" duration-ms="687" started-at="2016-04-05T22:57:33Z" finished-at="2016-04-05T22:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReportGroupDir -->
+        <test-method status="PASS" signature="setupReporting(java.lang.reflect.Method)[pri:0, instance:FirstGebTest@635eaaf1]" name="setupReporting" is-config="true" duration-ms="53" started-at="2016-04-05T22:57:34Z" finished-at="2016-04-05T22:57:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FirstGebTest.testLoginAsProsperUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReporting -->
+        <test-method status="PASS" signature="testLoginAsProsperUser()[pri:0, instance:FirstGebTest@635eaaf1]" name="testLoginAsProsperUser" duration-ms="108434" started-at="2016-04-05T22:57:34Z" finished-at="2016-04-05T22:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAsProsperUser -->
+        <test-method status="PASS" signature="reportingAfter(org.testng.ITestResult)[pri:0, instance:FirstGebTest@635eaaf1]" name="reportingAfter" is-config="true" duration-ms="954" started-at="2016-04-05T22:59:23Z" finished-at="2016-04-05T22:59:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginAsProsperUser status=SUCCESS method=FirstGebTest.testLoginAsProsperUser()[pri:0, instance:FirstGebTest@635eaaf1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportingAfter -->
+        <test-method status="PASS" signature="clearBrowserCookies()[pri:0, instance:FirstGebTest@635eaaf1]" name="clearBrowserCookies" is-config="true" duration-ms="3754" started-at="2016-04-05T22:59:24Z" finished-at="2016-04-05T22:59:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearBrowserCookies -->
+      </class> <!-- FirstGebTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

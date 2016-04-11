@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Default suite]]]]]]]]]">
+  <test name="Default test(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)">
+    <classes>
+      <class name="test.groovy.demo1.FirstGebTest">
+        <methods>
+          <include name="gebTest"/>
+          <include name="before"/>
+          <include name="clearBrowserCookies"/>
+          <include name="setupReporting"/>
+          <include name="initReportGroupDir"/>
+          <include name="reportingAfter"/>
+        </methods>
+      </class> <!-- test.groovy.demo1.FirstGebTest -->
+    </classes>
+  </test> <!-- Default test(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Default suite]]]]]]]]] -->

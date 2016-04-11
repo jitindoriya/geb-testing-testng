@@ -1,0 +1,10 @@
+to PublicSiteHomePage
+		log.info('User is landed on STG public site')
+		loanAmount<<xml.getDataAsList("PrimeBorrowerValidDetails").get(0).get("LoanAmount")
+		log.info('User has entered loan amount on widget')
+		loanPurpose='Debt Consolidation'
+		creditQuality='Excellent Credit (760+)'
+		checkYourRateButton.click()
+
+		at PublicSiteRegistrationPage
+		emailAddressField<<'gebtest'
