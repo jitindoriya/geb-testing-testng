@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Mar 31 22:07:32 IST 2016</td>
+<td>Started on:</td><td>Wed Apr 13 16:11:19 IST 2016</td>
 </tr>
-<tr><td>Total time:</td><td>39 seconds (39844 ms)</td>
+<tr><td>Total time:</td><td>88 seconds (88177 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,35 +75,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='FirstGebTest.testLoginAsProsperUser()'><b>testLoginAsProsperUser</b><br>Test class: FirstGebTest</td>
-<td><div><pre>Assertion failed: 
-
-$(&apos;h2.main-offer-table-header&apos;).text()==&quot;Your customized loan offer:&quot;
-|                               |     |
-[]                              null  false
-
-	at org.codehaus.groovy.runtime.InvokerHelper.assertFailed(InvokerHelper.java:399)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.assertFailed(ScriptBytecodeAdapter.java:648)
-	at content.prosper.PublicSiteLoanOfferPage$__clinit__closure1.doCall(PublicSiteLoanOfferPage.groovy:8)
-	at content.prosper.PublicSiteLoanOfferPage$__clinit__closure1.doCall(PublicSiteLoanOfferPage.groovy)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
-	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:292)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:39)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:114)
-	at geb.Page.verifyAt(Page.groovy:132)
-	at geb.Page$verifyAt$3.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-	at geb.Page$verifyAt$3.call(Unknown Source)
-	at geb.Browser.doAt(Browser.groovy:335)
-	at geb.Browser.this$2$doAt(Browser.groovy)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:207)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:56)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:163)
+<td title='FirstGebTest.testCreditReportLink()'><b>testCreditReportLink</b><br>Test class: FirstGebTest</td>
+<td><div><pre>java.lang.IllegalArgumentException: class PublicSitePersonalDetailPage is not a subclass of class geb.Page
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:81)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:232)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:244)
+	at geb.Browser.createPage(Browser.groovy:542)
 	at geb.Browser.at(Browser.groovy:259)
 	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
@@ -120,50 +98,25 @@ $(&apos;h2.main-offer-table-header&apos;).text()==&quot;Your customized loan off
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:151)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:163)
-	at FirstGebTest.testLoginAsProsperUser(FirstGebTest.groovy:29)
-... Removed 43 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1366499339", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1366499339'><pre>Assertion failed: 
-
-$(&apos;h2.main-offer-table-header&apos;).text()==&quot;Your customized loan offer:&quot;
-|                               |     |
-[]                              null  false
-
-	at org.codehaus.groovy.runtime.InvokerHelper.assertFailed(InvokerHelper.java:399)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.assertFailed(ScriptBytecodeAdapter.java:648)
-	at content.prosper.PublicSiteLoanOfferPage$__clinit__closure1.doCall(PublicSiteLoanOfferPage.groovy:8)
-	at content.prosper.PublicSiteLoanOfferPage$__clinit__closure1.doCall(PublicSiteLoanOfferPage.groovy)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
-	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:292)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:39)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:114)
-	at geb.Page.verifyAt(Page.groovy:132)
-	at geb.Page$verifyAt$3.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-	at geb.Page$verifyAt$3.call(Unknown Source)
-	at geb.Browser.doAt(Browser.groovy:335)
-	at geb.Browser.this$2$doAt(Browser.groovy)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:207)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:56)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:163)
+	at FirstGebTest.testCreditReportLink(FirstGebTest.groovy:45)
+... Removed 40 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1533662221", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1533662221'><pre>java.lang.IllegalArgumentException: class PublicSitePersonalDetailPage is not a subclass of class geb.Page
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:71)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:81)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:232)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:244)
+	at geb.Browser.createPage(Browser.groovy:542)
 	at geb.Browser.at(Browser.groovy:259)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
 	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
@@ -173,9 +126,9 @@ $(&apos;h2.main-offer-table-header&apos;).text()==&quot;Your customized loan off
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodN(ScriptBytecodeAdapter.java:166)
 	at geb.testng.GebTest.methodMissing(GebTest.groovy:50)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
 	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:933)
 	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1256)
@@ -185,11 +138,11 @@ $(&apos;h2.main-offer-table-header&apos;).text()==&quot;Your customized loan off
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:151)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:163)
-	at FirstGebTest.testLoginAsProsperUser(FirstGebTest.groovy:29)
+	at FirstGebTest.testCreditReportLink(FirstGebTest.groovy:45)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
@@ -207,12 +160,12 @@ $(&apos;h2.main-offer-table-header&apos;).text()==&quot;Your customized loan off
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
 	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:75)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:46)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
 </pre></div></td>
-<td>38</td>
-<td>FirstGebTest@1139b2f3</td></tr>
+<td>86</td>
+<td>FirstGebTest@527e5409</td></tr>
 </table><p>
 </body>
 </html>

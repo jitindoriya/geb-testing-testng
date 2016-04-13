@@ -2,50 +2,46 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="115642" started-at="2016-04-05T17:27:32Z" finished-at="2016-04-05T17:29:27Z">
+  <suite name="Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Default suite]]]]]" duration-ms="214479" started-at="2016-04-13T11:12:52Z" finished-at="2016-04-13T11:16:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="115642" started-at="2016-04-05T17:27:32Z" finished-at="2016-04-05T17:29:27Z">
+    <test name="Default test(failed)(failed)(failed)(failed)(failed)" duration-ms="214479" started-at="2016-04-13T11:12:52Z" finished-at="2016-04-13T11:16:26Z">
       <class name="FirstGebTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:FirstGebTest@635eaaf1]" name="before" is-config="true" duration-ms="1715" started-at="2016-04-05T22:57:32Z" finished-at="2016-04-05T22:57:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="initReportGroupDir()[pri:0, instance:FirstGebTest@635eaaf1]" name="initReportGroupDir" is-config="true" duration-ms="687" started-at="2016-04-05T22:57:33Z" finished-at="2016-04-05T22:57:34Z">
+        <test-method status="PASS" signature="initReportGroupDir()[pri:0, instance:FirstGebTest@527e5409]" name="initReportGroupDir" is-config="true" duration-ms="1252" started-at="2016-04-13T16:42:52Z" finished-at="2016-04-13T16:42:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initReportGroupDir -->
-        <test-method status="PASS" signature="setupReporting(java.lang.reflect.Method)[pri:0, instance:FirstGebTest@635eaaf1]" name="setupReporting" is-config="true" duration-ms="53" started-at="2016-04-05T22:57:34Z" finished-at="2016-04-05T22:57:34Z">
+        <test-method status="PASS" signature="setupReporting(java.lang.reflect.Method)[pri:0, instance:FirstGebTest@527e5409]" name="setupReporting" is-config="true" duration-ms="53" started-at="2016-04-13T16:42:53Z" finished-at="2016-04-13T16:42:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void FirstGebTest.testLoginAsProsperUser()]]>
+                <![CDATA[public void FirstGebTest.testCreditReportLink()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReporting -->
-        <test-method status="PASS" signature="testLoginAsProsperUser()[pri:0, instance:FirstGebTest@635eaaf1]" name="testLoginAsProsperUser" duration-ms="108434" started-at="2016-04-05T22:57:34Z" finished-at="2016-04-05T22:59:23Z">
+        <test-method status="PASS" signature="testCreditReportLink()[pri:0, instance:FirstGebTest@527e5409]" name="testCreditReportLink" duration-ms="212697" started-at="2016-04-13T16:42:53Z" finished-at="2016-04-13T16:46:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginAsProsperUser -->
-        <test-method status="PASS" signature="reportingAfter(org.testng.ITestResult)[pri:0, instance:FirstGebTest@635eaaf1]" name="reportingAfter" is-config="true" duration-ms="954" started-at="2016-04-05T22:59:23Z" finished-at="2016-04-05T22:59:24Z">
+        </test-method> <!-- testCreditReportLink -->
+        <test-method status="PASS" signature="reportingAfter(org.testng.ITestResult)[pri:0, instance:FirstGebTest@527e5409]" name="reportingAfter" is-config="true" duration-ms="437" started-at="2016-04-13T16:46:26Z" finished-at="2016-04-13T16:46:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginAsProsperUser status=SUCCESS method=FirstGebTest.testLoginAsProsperUser()[pri:0, instance:FirstGebTest@635eaaf1] output={null}]]]>
+                <![CDATA[[TestResult name=testCreditReportLink status=SUCCESS method=FirstGebTest.testCreditReportLink()[pri:0, instance:FirstGebTest@527e5409] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportingAfter -->
-        <test-method status="PASS" signature="clearBrowserCookies()[pri:0, instance:FirstGebTest@635eaaf1]" name="clearBrowserCookies" is-config="true" duration-ms="3754" started-at="2016-04-05T22:59:24Z" finished-at="2016-04-05T22:59:27Z">
+        <test-method status="PASS" signature="clearBrowserCookies()[pri:0, instance:FirstGebTest@527e5409]" name="clearBrowserCookies" is-config="true" duration-ms="21" started-at="2016-04-13T16:46:26Z" finished-at="2016-04-13T16:46:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearBrowserCookies -->
       </class> <!-- FirstGebTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Default test(failed)(failed)(failed)(failed)(failed) -->
+  </suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Default suite]]]]] -->
 </testng-results>

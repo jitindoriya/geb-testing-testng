@@ -1,24 +1,16 @@
 
 
-import org.apache.log4j.Logger
-import org.junit.runner.RunWith;
-import org.junit.runners.JUnit4;
+import org.testng.annotations.Test
 
-import content.prosper.PublicSiteHomePage
-import content.prosper.PublicSiteLoanOfferPage
-import content.prosper.PublicSiteRegistrationPage
-import  content.prosper.PublicSiteSignInPage
-import geb.junit4.GebReportingTest
-import org.junit.Test
-import org.junit.runner.RunWith
-import org.junit.runners.JUnit4
+import content.prosper.*
+import geb.testng.GebReportingTest
+import org.apache.log4j.Logger;
 
-@RunWith(JUnit4)
 class FirstGebTest extends GebReportingTest {
 	Logger log = Logger.getLogger(FirstGebTest)
 
 	@Test
-	public void testLoginAsProsperUser() {
+	public void testCreditReportLink() {
 
 		to PublicSiteHomePage
 		log.info('User is landed on STG public site')
@@ -40,9 +32,20 @@ class FirstGebTest extends GebReportingTest {
 		withNewWindow({creditReportAuth_link.click()}){
 			assert creditReportAuth_window.text() == 'Authorization to Obtain Credit Report at Registration'
 		}
-//		String emailaddress = enterDetailAndSubmitRegistration('GARY','BAKOWSKI','2416 WASHINGTON AVE','SAINT ALBANS','251773232','WV','Employed','900000','12/12/1970','automation'+Math.abs(new Random().nextInt() % 600) + 1+'@c1.stg')
+		String emailaddress = enterDetailAndSubmitRegistration('GARY','BAKOWSKI','2416 WASHINGTON AVE','SAINT ALBANS','251773232','WV','Employed','900000','12/12/1970','automation'+Math.abs(new Random().nextInt() % 600) + 1+'@c1.stg')
 		log.info('User has entered registration form on registration page')
-//		log.info(emailaddress)
-//		assert at(PublicSiteLoanOfferPage)
+		log.info(emailaddress)
+		assert at(PublicSiteLoanOfferPage)
+		
+		selectLoanOffers()
+		
+		assert at(PublicSitePersonalDetailPage)
+		
+		enterPersonalDetailAndSubmit()
+		
+		assert at(PublicSiteLoanTermPage)
+		acceptAndSubmitTil()
+		pause()
+		
 	}
 }

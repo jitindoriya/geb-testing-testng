@@ -9,7 +9,13 @@ class PublicSiteLoanOfferPage extends Page{
 	}
 	
 	static content={
+		loaderBox ( required: false ){$('.spinnerContent')}
 		heading (wait:'slow'){$('h2.main-offer-table-header')}
+		getThisLoan_btn (to: PublicSitePersonalDetailPage,wait:'slow'){$("#get-this-loan")}
 	}
 
+	def selectLoanOffers(){
+		getThisLoan_btn.click()
+		waitFor('slow'){!loaderBox.present}
+	}
 }

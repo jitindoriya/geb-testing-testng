@@ -22,7 +22,7 @@ class PublicSiteRegistrationPage extends Page {
         getYourRate_btn (to:PublicSiteLoanOfferPage,wait:true) {$("button[data-q='get-rate']")}
         emailAddressField (wait:true){$("#emailTop")}
         password_in (wait:true){$("#ab-test-password>input[name='passwordTop']")}
-		creditReportAuth_link (wait:true){$("a[data-q='credit-report-authorization']")}
+		creditReportAuth_link (cache:true){$("a[data-q='credit-report-authorization']")}
 		creditReportAuth_window(wait:'slow'){$("#M_MainContent_lblAgreementTitle")}
     }
 
