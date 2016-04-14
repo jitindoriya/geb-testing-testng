@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Apr 13 16:39:03 IST 2016</td>
+<td>Started on:</td><td>Thu Apr 14 18:55:04 IST 2016</td>
 </tr>
-<tr><td>Total time:</td><td>162 seconds (162935 ms)</td>
+<tr><td>Total time:</td><td>89 seconds (89968 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,39 +76,87 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='FirstGebTest.testCreditReportLink()'><b>testCreditReportLink</b><br>Test class: FirstGebTest</td>
-<td><div><pre>Assertion failed: 
-
-heading.text()==&quot;Your Home Improvement Loan Terms&quot;
-|       |     |
-|       |     false
-|       Your Debt Consolidation Loan Terms
-heading - SimplePageContent (owner: PublicSiteLoanTermPage, args: [], value: null)
-
-	at org.codehaus.groovy.runtime.InvokerHelper.assertFailed(InvokerHelper.java:399)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.assertFailed(ScriptBytecodeAdapter.java:648)
-	at content.prosper.PublicSiteLoanTermPage$__clinit__closure2.doCall(PublicSiteLoanTermPage.groovy:9)
-	at content.prosper.PublicSiteLoanTermPage$__clinit__closure2.doCall(PublicSiteLoanTermPage.groovy)
+<td><div><pre>org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 10 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;KAMET-QA23L&apos;, ip: &apos;10.212.12.107&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 245694e5-1561-449c-87f7-bd7685df2e5b
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:140)
+	at org.openqa.selenium.WebElement$clear$2.call(Unknown Source)
+	at geb.navigator.NonEmptyNavigator.setInputValue(NonEmptyNavigator.groovy:488)
+	at geb.navigator.NonEmptyNavigator.this$3$setInputValue(NonEmptyNavigator.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:382)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at geb.navigator.NonEmptyNavigator$_setInputValues_closure34.doCall(NonEmptyNavigator.groovy:466)
 	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
 	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:292)
 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:39)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:114)
-	at geb.Page.verifyAt(Page.groovy:132)
-	at geb.Page$verifyAt$3.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-	at geb.Page$verifyAt$3.call(Unknown Source)
-	at geb.Browser.doAt(Browser.groovy:335)
-	at geb.Browser.this$2$doAt(Browser.groovy)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:207)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:56)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:163)
-	at geb.Browser.at(Browser.groovy:259)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:439)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2027)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2012)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2053)
+	at org.codehaus.groovy.runtime.dgm$162.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:271)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:122)
+	at geb.navigator.NonEmptyNavigator.setInputValues(NonEmptyNavigator.groovy:465)
+	at geb.navigator.NonEmptyNavigator.this$3$setInputValues(NonEmptyNavigator.groovy)
 	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1121)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:149)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at geb.navigator.NonEmptyNavigator.value(NonEmptyNavigator.groovy:285)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1121)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:149)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:914)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:897)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodN(ScriptBytecodeAdapter.java:166)
+	at geb.content.NavigableSupport.methodMissing(NavigableSupport.groovy:125)
+	at geb.content.NavigableSupport$methodMissing$0.call(Unknown Source)
+	at geb.content.SimplePageContent.methodMissing(SimplePageContent.groovy)
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:933)
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1256)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1209)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1121)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:149)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:39)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:122)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:143)
+	at geb.content.NavigableSupport$propertyMissing$1.call(Unknown Source)
+	at geb.Page.propertyMissing(Page.groovy)
+	at groovy.lang.MetaClassImpl.invokeMissingProperty(MetaClassImpl.java:877)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:2721)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:3746)
+	at geb.Page.setProperty(Page.groovy)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.setGroovyObjectProperty(ScriptBytecodeAdapter.java:530)
+	at content.prosper.PublicSiteBankInfoPage.submitManualBankOptions(PublicSiteBankInfoPage.groovy:23)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:914)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:897)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodN(ScriptBytecodeAdapter.java:166)
+	at geb.Browser.methodMissing(Browser.groovy:168)
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:933)
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1256)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1209)
 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
 	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:914)
 	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:897)
@@ -121,21 +169,48 @@ heading - SimplePageContent (owner: PublicSiteLoanTermPage, args: [], value: nul
 	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:151)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:163)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:155)
 	at FirstGebTest.testCreditReportLink(FirstGebTest.groovy:50)
-... Removed 43 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace410958248", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace410958248'><pre>Assertion failed: 
-
-heading.text()==&quot;Your Home Improvement Loan Terms&quot;
-|       |     |
-|       |     false
-|       Your Debt Consolidation Loan Terms
-heading - SimplePageContent (owner: PublicSiteLoanTermPage, args: [], value: null)
-
-	at org.codehaus.groovy.runtime.InvokerHelper.assertFailed(InvokerHelper.java:399)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.assertFailed(ScriptBytecodeAdapter.java:648)
-	at content.prosper.PublicSiteLoanTermPage$__clinit__closure2.doCall(PublicSiteLoanTermPage.groovy:9)
-	at content.prosper.PublicSiteLoanTermPage$__clinit__closure2.doCall(PublicSiteLoanTermPage.groovy)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;KAMET-QA23L&apos;, ip: &apos;10.212.12.107&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/jdoriya/AppData/Local/Temp/anonymous4768824601081960224webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/jdoriya/AppData/Local/Temp/anonymous4768824601081960224webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/jdoriya/AppData/Local/Temp/anonymous4768824601081960224webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/jdoriya/AppData/Local/Temp/anonymous4768824601081960224webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/jdoriya/AppData/Local/Temp/anonymous4768824601081960224webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+... Removed 72 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace795594631", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace795594631'><pre>org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 10 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;KAMET-QA23L&apos;, ip: &apos;10.212.12.107&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 245694e5-1561-449c-87f7-bd7685df2e5b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:140)
+	at org.openqa.selenium.WebElement$clear$2.call(Unknown Source)
+	at geb.navigator.NonEmptyNavigator.setInputValue(NonEmptyNavigator.groovy:488)
+	at geb.navigator.NonEmptyNavigator.this$3$setInputValue(NonEmptyNavigator.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:382)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at geb.navigator.NonEmptyNavigator$_setInputValues_closure34.doCall(NonEmptyNavigator.groovy:466)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -144,26 +219,17 @@ heading - SimplePageContent (owner: PublicSiteLoanTermPage, args: [], value: nul
 	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
 	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:292)
 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:39)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:114)
-	at geb.Page.verifyAt(Page.groovy:132)
-	at geb.Page$verifyAt$3.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-	at geb.Page$verifyAt$3.call(Unknown Source)
-	at geb.Browser.doAt(Browser.groovy:335)
-	at geb.Browser.this$2$doAt(Browser.groovy)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:207)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:56)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:163)
-	at geb.Browser.at(Browser.groovy:259)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:439)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2027)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2012)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2053)
+	at org.codehaus.groovy.runtime.dgm$162.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:271)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:122)
+	at geb.navigator.NonEmptyNavigator.setInputValues(NonEmptyNavigator.groovy:465)
+	at geb.navigator.NonEmptyNavigator.this$3$setInputValues(NonEmptyNavigator.groovy)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -171,6 +237,74 @@ heading - SimplePageContent (owner: PublicSiteLoanTermPage, args: [], value: nul
 	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
 	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1121)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:149)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at geb.navigator.NonEmptyNavigator.value(NonEmptyNavigator.groovy:285)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1121)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:149)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:914)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:897)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodN(ScriptBytecodeAdapter.java:166)
+	at geb.content.NavigableSupport.methodMissing(NavigableSupport.groovy:125)
+	at geb.content.NavigableSupport$methodMissing$0.call(Unknown Source)
+	at geb.content.SimplePageContent.methodMissing(SimplePageContent.groovy)
+	at sun.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:933)
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1256)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1209)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1121)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:149)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:39)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:122)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:143)
+	at geb.content.NavigableSupport$propertyMissing$1.call(Unknown Source)
+	at geb.Page.propertyMissing(Page.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeMissingProperty(MetaClassImpl.java:877)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:2721)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:3746)
+	at geb.Page.setProperty(Page.groovy)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.setGroovyObjectProperty(ScriptBytecodeAdapter.java:530)
+	at content.prosper.PublicSiteBankInfoPage.submitManualBankOptions(PublicSiteBankInfoPage.groovy:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:914)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:897)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodN(ScriptBytecodeAdapter.java:166)
+	at geb.Browser.methodMissing(Browser.groovy:168)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:933)
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1256)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1209)
 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
 	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:914)
 	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:897)
@@ -188,7 +322,7 @@ heading - SimplePageContent (owner: PublicSiteLoanTermPage, args: [], value: nul
 	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:151)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:163)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:155)
 	at FirstGebTest.testCreditReportLink(FirstGebTest.groovy:50)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -214,9 +348,18 @@ heading - SimplePageContent (owner: PublicSiteLoanTermPage, args: [], value: nul
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;KAMET-QA23L&apos;, ip: &apos;10.212.12.107&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/jdoriya/AppData/Local/Temp/anonymous4768824601081960224webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/jdoriya/AppData/Local/Temp/anonymous4768824601081960224webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/jdoriya/AppData/Local/Temp/anonymous4768824601081960224webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/jdoriya/AppData/Local/Temp/anonymous4768824601081960224webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/jdoriya/AppData/Local/Temp/anonymous4768824601081960224webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
 </pre></div></td>
-<td>161</td>
-<td>FirstGebTest@6e75aa0d</td></tr>
+<td>88</td>
+<td>FirstGebTest@2aa3cd93</td></tr>
 </table><p>
 </body>
 </html>

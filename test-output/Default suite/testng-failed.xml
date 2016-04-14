@@ -6,8 +6,10 @@
       <class name="FirstGebTest">
         <methods>
           <include name="testCreditReportLink"/>
+          <include name="clearBrowserCookies"/>
           <include name="setupReporting"/>
           <include name="initReportGroupDir"/>
+          <include name="before"/>
           <include name="reportingAfter"/>
         </methods>
       </class> <!-- FirstGebTest -->

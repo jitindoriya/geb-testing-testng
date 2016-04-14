@@ -29,7 +29,7 @@ class PublicSitePersonalDetailPage extends Page{
 		employerPhoneNo_input ="2066611811"
 		employerName_input ="TestEmployer"
 		occupation_dropdown ="Analyst"
-		ssn_input ="666543705"
+//		ssn_input ="666543705"
 		employmentStartDate_input = "02/2000"
 		continue_btn.click()
 

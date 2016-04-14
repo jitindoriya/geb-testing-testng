@@ -5,7 +5,7 @@
     <classes>
       <class name="FirstGebTest">
         <methods>
-          <include name="testLoginAsProsperUser"/>
+          <include name="testCreditReportLink"/>
           <include name="clearBrowserCookies"/>
           <include name="setupReporting"/>
           <include name="initReportGroupDir"/>

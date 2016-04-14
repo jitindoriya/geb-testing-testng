@@ -6,7 +6,7 @@ import content.prosper.*
 import geb.testng.GebReportingTest
 import org.apache.log4j.Logger;
 
-class FirstGebTest extends GebReportingTest {
+class FirstGebTest extends TestHelper {
 	Logger log = Logger.getLogger(FirstGebTest)
 
 	@Test
@@ -29,9 +29,9 @@ class FirstGebTest extends GebReportingTest {
 		at PublicSiteRegistrationPage
 		log.info('User has navigate to registration page')
 
-		withNewWindow({creditReportAuth_link.click()}){
+		/*withNewWindow({creditReportAuth_link.click()}){
 			assert creditReportAuth_window.text() == 'Authorization to Obtain Credit Report at Registration'
-		}
+		}*/
 		String emailaddress = enterDetailAndSubmitRegistration('GARY','BAKOWSKI','2416 WASHINGTON AVE','SAINT ALBANS','251773232','WV','Employed','900000','12/12/1970','automation'+Math.abs(new Random().nextInt() % 600) + 1+'@c1.stg')
 		log.info('User has entered registration form on registration page')
 		log.info(emailaddress)
@@ -45,7 +45,11 @@ class FirstGebTest extends GebReportingTest {
 		
 		assert at(PublicSiteLoanTermPage)
 		acceptAndSubmitTil()
-		pause()
 		
+		assert at(PublicSiteBankInfoPage)
+		submitManualBankOptions()
+		
+		assert at(PublicSiteThankYouPage)
+		goToMyAccount_btn.click()
 	}
 }

@@ -31,7 +31,7 @@ environments {
 }
 
 // application URI to be tested using geb 
-baseUrl = "http://www.qa34.c1.dev/"
+baseUrl = "https://www.stg.circleone.com"
 
 
 reportsDir = new File("build/geb-reports")
