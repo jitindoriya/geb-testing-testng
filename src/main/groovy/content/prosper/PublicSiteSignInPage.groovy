@@ -4,7 +4,7 @@ import geb.Page
 
 class PublicSiteSignInPage extends Page {
 	
-	static url = "https://www.stg.circleone.com/signin"
+//	static url = "http://support.qa34.c1.dev/Login.aspx?ReturnUrl=%2fHome.aspx"
 	
 	static at ={
 			waitFor('slow'){$('div[ng-app=sign_in]').displayed}

@@ -14,7 +14,7 @@ class PublicSiteLoanTermPage extends Page {
 		heading (wait:'slow'){$(".tila-header-text")}
 		tilaDocument(wait:'slow'){$(".tila-scroll-area>p")}
 		tilaAcceptAgreement_checkbox (wait:'slow'){$("#tila-acceptance-desktop")}
-		continue_btn (to:PublicSiteBankInfoPage,wait:'slow'){$("#continue")}
+		continue_btn (wait:'slow'){$("#continue")}
 		
 	}
 	

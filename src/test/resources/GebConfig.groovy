@@ -3,7 +3,7 @@ import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.firefox.FirefoxBinary
 import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.firefox.FirefoxProfile
-
+import content.Exceptions.*
 
 driver = {
 	System.setProperty('webdriver.chrome.driver', System.getProperty("user.dir")+"/src/test/resources/chromedriver.exe")
@@ -51,12 +51,12 @@ waiting {
 
 
 
-unexpectedPages = [PageNotFoundPage, InternalServerErrorPage]
+unexpectedPages = [ProsperSystemErrorPage]
 
 
 waiting {
 	includeCauseInMessage = true
-	atCheckWaiting = true
+//	atCheckWaiting = true
 }
 
 

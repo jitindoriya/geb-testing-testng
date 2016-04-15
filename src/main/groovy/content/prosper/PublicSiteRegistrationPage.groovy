@@ -19,7 +19,7 @@ class PublicSiteRegistrationPage extends Page {
         yearlIncome_in  (wait:'slow') {$('#individual-yearly-income')}
         dateOfBirth_in (wait:'slow')    {$('#date-of-birth-text')}
         creditReportAuthorization_checkBox (wait:'slow') {$('#credit-report-authorization')}
-        getYourRate_btn (to:PublicSiteLoanOfferPage,wait:true) {$("button[data-q='get-rate']")}
+        getYourRate_btn (wait:true) {$("button[data-q='get-rate']")}
         emailAddressField (wait:true){$("#emailTop")}
         password_in (wait:true){$("#ab-test-password>input[name='passwordTop']")}
 		creditReportAuth_link (cache:true){$("a[data-q='credit-report-authorization']")}

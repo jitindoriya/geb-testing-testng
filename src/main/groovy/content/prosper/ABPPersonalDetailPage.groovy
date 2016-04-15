@@ -2,12 +2,9 @@ package content.prosper
 
 import geb.Page
 
-class PublicSitePersonalDetailPage extends Page{
+class ABPPersonalDetailPage extends Page{
 
-	static at = {
-		heading.text()=="You're Almost Finished"
-	}
-
+	
 	static content ={
 		loaderBox ( required: false ){$('.spinnerContent')}
 		heading (wait:'slow'){$(".small-12.columns>h1")}
@@ -21,7 +18,6 @@ class PublicSitePersonalDetailPage extends Page{
 		ssn_input (wait:'slow'){$("#social")}
 		continue_btn (wait:'slow'){$("#continue")}
 	}
-
 	def enterPersonalDetailAndSubmit(){
 		primaryPhoneNo_input = "2066611811"
 		secondaryPhoneNo_input ="2066611811"
