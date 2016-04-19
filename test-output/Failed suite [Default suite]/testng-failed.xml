@@ -3,16 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Default suite]]">
   <test name="Default test(failed)(failed)">
     <classes>
-      <class name="FirstGebTest">
+      <class name="ABPFlowTest">
         <methods>
-          <include name="testCreditReportLink"/>
+          <include name="testABPPathAListingCreation"/>
           <include name="clearBrowserCookies"/>
           <include name="setupReporting"/>
           <include name="initReportGroupDir"/>
           <include name="before"/>
           <include name="reportingAfter"/>
         </methods>
-      </class> <!-- FirstGebTest -->
+      </class> <!-- ABPFlowTest -->
     </classes>
   </test> <!-- Default test(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Default suite]] -->

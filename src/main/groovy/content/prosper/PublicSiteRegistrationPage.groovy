@@ -4,7 +4,7 @@ import geb.Page
 
 class PublicSiteRegistrationPage extends Page {
 	static at = {
-		  $(".small-12.columns>h1").text() == "Get a Custom Rate in 1 Click"
+		waitFor('slow'){ $(".small-12.columns>h1").text() == "Get a Custom Rate in 1 Click"}
 		 }
 	
 	static content = {

@@ -16,6 +16,15 @@ class PublicSiteBankInfoPage extends Page{
 		newAccountNumber_input (wait:'slow'){$(".optionContainer #account-number")}
 		newConfirmAccountNumber_input (wait:'slow'){$(".optionContainer #confirm-account-number")}
 		addBankAccount_btn (wait:'slow'){$(".bank-info-option-2 [class='funnel-CTA row'] #add-bank-account")}
+		// Exisitng user Bank informations
+		existingUserBankInfoHeader_text (wait:'slow'){$("#manualPanel")}
+		existingUserBankName_input (wait:'slow'){$("#manualPanel #bank-name")}
+		existingAccountHolderName_input (wait:'slow'){$("#manualPanel #first-account-holder-name")}
+		existingAltAccountHolderName_input (wait:'slow'){$("#manualPanel #second-account-holder-name")}
+		existingRoutingNumber_input (wait:'slow'){$("#manualPanel #routing-number")}
+		existingAccountNumber_input (wait:'slow'){$("#manualPanel #account-number")}
+		existingConfirmAccountNumber_input (wait:'slow'){$("#manualPanel #confirm-account-number")}
+		existingBankFinish_btn (wait:'slow'){$(".bank-info [class='funnel-CTA row'] #add-bank-account")}
 	}
 	
 	def submitManualBankOptions(){
@@ -29,5 +38,11 @@ class PublicSiteBankInfoPage extends Page{
 		newAccountNumber_input="123456789"
 		newConfirmAccountNumber_input="123456789"
 		addBankAccount_btn.click()
+	}
+	
+	def submitExistingUserManualBankOptions(){
+		waitFor(wait:'slow'){existingUserBankInfoHeader_text.text().contains("Congratulations, your loan is ready for funding!")}
+		
+		existingBankFinish_btn[1].click()
 	}
 }

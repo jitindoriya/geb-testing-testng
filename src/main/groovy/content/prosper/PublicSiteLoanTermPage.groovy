@@ -6,7 +6,7 @@ class PublicSiteLoanTermPage extends Page {
 
 	
 	static at ={
-		heading.text()=="Your Debt Consolidation Loan Terms"
+		waitFor('slow'){heading.text()=="Your Debt Consolidation Loan Terms"}
 	}
 	
 	static content ={

@@ -31,7 +31,7 @@ environments {
 }
 
 // application URI to be tested using geb 
-baseUrl = "https://www.stg.circleone.com"
+baseUrl = "https://www.stg.circleone.com/"
 
 
 reportsDir = new File("build/geb-reports")
@@ -56,7 +56,7 @@ unexpectedPages = [ProsperSystemErrorPage]
 
 waiting {
 	includeCauseInMessage = true
-//	atCheckWaiting = true
+	atCheckWaiting = true
 }
 
 

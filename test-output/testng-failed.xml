@@ -5,9 +5,9 @@
     <classes>
       <class name="ABPFlowTest">
         <methods>
-          <include name="testABPPathAListingCreation"/>
           <include name="clearBrowserCookies"/>
           <include name="setupReporting"/>
+          <include name="testABPPathBListingCreation"/>
           <include name="initReportGroupDir"/>
           <include name="before"/>
           <include name="reportingAfter"/>

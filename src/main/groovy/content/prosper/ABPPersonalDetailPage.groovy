@@ -17,6 +17,8 @@ class ABPPersonalDetailPage extends Page{
 		employmentStartDate_input (wait:'slow'){$("#employment_start_period")}
 		ssn_input (wait:'slow'){$("#social")}
 		continue_btn (wait:'slow'){$("#continue")}
+		
+		
 	}
 	def enterPersonalDetailAndSubmit(){
 		primaryPhoneNo_input = "2066611811"
